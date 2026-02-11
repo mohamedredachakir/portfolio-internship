@@ -1,0 +1,186 @@
+{
+    "personal": {
+        "name": "Mohamed Reda Chakir",
+        "title": "Full Stack Web Developer",
+        "bio": "Full Stack Web Developer specialized in building practical and impactful digital solutions. Currently training at YouCode (UM6P) and working on multiple real-world and freelance projects.",
+        "location": "Morocco",
+        "status": "Looking for Internship April 2026",
+        "email": "chakirm082@gmail.com",
+        "phone": "0693072069",
+        "website": ""
+    },
+    "social": {
+        "github": "https://github.com/mohamedredachakir",
+        "linkedin": "https://www.linkedin.com/in/mohamed-reda-chakir-7339b135a/",
+        "portfolio": "",
+        "twitter": ""
+    },
+    "skills": {
+        "frontend": [
+            "HTML5",
+            "CSS3",
+            "JavaScript (ES6+)",
+            "TypeScript",
+            "TailwindCSS",
+            "Bootstrap",
+            "Sass",
+            "Vue.js",
+            "Nuxt.js",
+            "React",
+            "Next.js",
+            "Astro",
+            "Three.js",
+            "Responsive Design",
+            "DOM Manipulation",
+            "Web Animations",
+            "REST API Integration"
+        ],
+        "backend": [
+            "PHP",
+            "Laravel",
+            "Python",
+            "Flask",
+            "MVC Architecture",
+            "RESTful API Development",
+            "Authentication & Authorization",
+            "Server-side Rendering",
+            "OOP",
+            "API Integration"
+        ],
+        "databases": [
+            "PostgreSQL",
+            "MySQL",
+            "SQLite",
+            "Database Design",
+            "SQL Optimization",
+            "Data Modeling"
+        ],
+        "3d_web_graphics": [
+            "Three.js",
+            "WebGL Basics",
+            "3D Animations",
+            "Interactive 3D UI"
+        ],
+        "devops": [
+            "Docker",
+            "Docker Compose",
+            "Linux",
+            "Environment Configuration",
+            "Deployment Basics",
+            "CI/CD Concepts"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "Composer",
+            "NPM",
+            "PNPM",
+            "Vite",
+            "Webpack",
+            "Figma",
+            "Postman",
+            "VS Code"
+        ],
+        "frameworks_and_libraries": [
+            "Laravel",
+            "Vue.js",
+            "Nuxt.js",
+            "React",
+            "Next.js",
+            "Astro",
+            "Flask",
+            "Three.js"
+        ],
+        "concepts": [
+            "Agile Methodology",
+            "Scrum",
+            "Clean Code",
+            "SOLID Principles",
+            "Design Patterns",
+            "Version Control",
+            "Debugging",
+            "Problem Solving",
+            "Web Performance Optimization",
+            "SEO Basics"
+        ]
+    },
+    "education": [
+        {
+            "school": "YouCode (UM6P)",
+            "program": "Web Development",
+            "year": "2025 - Present"
+        }
+    ],
+    "experience": [
+        {
+            "type": "Full Stack Developer Trainee",
+            "company": "@ YouCode (UM6P)",
+            "period": "Oct 2024 - Present",
+            "description": "Engaged in an intensive, project-based learning environment. Developed several real-world applications including a memory game (ALFLA7), a typing speed game (TAP-TAP), and a comprehensive debrief management system. Mastered modern frameworks like Laravel and React while following Agile methodologies."
+        },
+        {
+            "type": "Freelance Web Developer",
+            "company": "@ SELF_EMPLOYED",
+            "period": "2023 - Present",
+            "description": "Building custom, high-performance web solutions for various clients. Focused on clean code, responsive design, and integrating modern frontend technologies to deliver impactful digital experiences."
+        }
+    ],
+    "projects": [
+        {
+            "name": "LocalMind",
+            "description": "An AI-powered local knowledge base and community platform for smarter neighborhood interactions.",
+            "technologies": [
+                "Laravel",
+                "PHP",
+                "TailwindCSS",
+                "PostgreSQL",
+                "OpenAI API"
+            ],
+            "github": "https://github.com/mohamedredachakir/LocalMind",
+            "image": "Assets/images/localmind.jpg"
+        },
+        {
+            "name": "ALFLA7",
+            "description": "A memory game where users find identical pairs of farming-themed items.",
+            "technologies": [
+                "HTML5",
+                "CSS3",
+                "JavaScript"
+            ],
+            "github": "https://github.com/mohamedredachakir/ALFLA7",
+            "image": "Assets/images/alfla7.png"
+        },
+        {
+            "name": "TAP-TAP",
+            "description": "A fast-paced typing speed game to test and improve your keyboard skills.",
+            "technologies": [
+                "JavaScript",
+                "HTML5",
+                "CSS3"
+            ],
+            "github": "https://github.com/mohamedredachakir/TAP-TAP",
+            "image": "Assets/images/taptap.png"
+        },
+        {
+            "name": "Debrief System",
+            "description": "A streamlined system for managing and tracking internship or project debriefs.",
+            "technologies": [
+                "Laravel",
+                "Blade",
+                "MySQL",
+                "TailwindCSS"
+            ],
+            "github": "https://github.com/mohamedredachakir/debrief-system",
+            "image": "Assets/images/debrief.jpg"
+        }
+    ],
+    "leetcode": {
+        "username": "mohamedredachakir"
+    },
+    "githubStats": {
+        "username": "mohamedredachakir"
+    },
+    "resume": {
+        "file": "Assets/Resume/Mohamed_Reda_Chakir_CV.pdf"
+    }
+}
