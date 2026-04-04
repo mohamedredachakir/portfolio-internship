@@ -1,0 +1,372 @@
+{
+  "personal": {
+    "name": "Mohamed Reda Chakir",
+    "title": "Full Stack Web Developer",
+    "bio": "Full Stack Web Developer passionate about designing and building scalable, efficient, and user-centered web applications. Currently undergoing advanced training at YouCode (UM6P), with hands-on experience in web content management, SEO on-page optimization, RGPD compliance, and digital accessibility (WCAG). Comfortable across the full development cycle — from concept to deployment — with a strong focus on clean code, performance, and quality. Also experienced in UI/UX design and graphic design.",
+    "location": "Morocco",
+    "status": "Looking for Internship — April 2026",
+    "email": "chakirm082@gmail.com",
+    "phone": "0693072069",
+    "website": "https://mohamedredachakir.github.io/portfolio-internship/"
+  },
+  "social": {
+    "github": "https://github.com/mohamedredachakir",
+    "linkedin": "https://www.linkedin.com/in/mohamed-reda-chakir-7339b135a/",
+    "leetcode": "https://leetcode.com/u/mohamedredachakir/",
+    "portfolio": "https://mohamedredachakir.github.io/portfolio-internship/",
+    "instagram": "https://instagram.com/med_reda_chakir",
+    "discord": "https://discord.gg/reddcs",
+    "twitter": ""
+  },
+  "skills": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "TailwindCSS",
+      "Bootstrap",
+      "Sass",
+      "Vue.js",
+      "Nuxt.js",
+      "React",
+      "Next.js",
+      "Astro",
+      "Three.js",
+      "jQuery",
+      "Responsive Design",
+      "DOM Manipulation",
+      "Web Animations",
+      "REST API Integration"
+    ],
+    "backend": [
+      "PHP",
+      "Laravel",
+      "Python",
+      "Flask",
+      "Django",
+      "Node.js",
+      "Express.js",
+      "MVC Architecture",
+      "RESTful API Development",
+      "Authentication & Authorization",
+      "Server-side Rendering",
+      "OOP",
+      "API Integration",
+      "Pest (Unit Testing)",
+      "Swagger / API Documentation"
+    ],
+    "cms": [
+      "WordPress",
+      "WordPress Back-Office",
+      "Gutenberg Editor",
+      "Custom Themes Development",
+      "Plugin Integration & Configuration",
+      "WooCommerce",
+      "Editorial Content Management",
+      "Blog & Product Page Updates"
+    ],
+    "seo_and_compliance": [
+      "SEO On-Page",
+      "Metadata Optimization",
+      "Structured Data (Schema.org)",
+      "Google Search Console",
+      "Sitemap & Robots.txt",
+      "Core Web Vitals",
+      "RGPD / GDPR Compliance",
+      "Digital Accessibility (WCAG 2.1)",
+      "Aria Attributes",
+      "Web Security Best Practices"
+    ],
+    "databases": [
+      "PostgreSQL",
+      "MySQL",
+      "SQLite",
+      "Prisma ORM",
+      "Database Design",
+      "SQL Optimization",
+      "Data Modeling"
+    ],
+    "3d_web_graphics": [
+      "Three.js",
+      "WebGL Basics",
+      "Blender",
+      "3D Animations",
+      "Interactive 3D UI"
+    ],
+    "devops": [
+      "Docker",
+      "Docker Compose",
+      "Linux",
+      "Nginx",
+      "Apache",
+      "AWS",
+      "Hostinger",
+      "Vercel",
+      "Google Cloud",
+      "Environment Configuration",
+      "Deployment & Maintenance",
+      "CI/CD Concepts"
+    ],
+    "design": [
+      "Figma",
+      "Framer",
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe InDesign",
+      "Adobe Lightroom",
+      "Adobe XD",
+      "Canva",
+      "UI/UX Design",
+      "Brand Identity",
+      "Graphic Design",
+      "Visual Communication"
+    ],
+    "tools": [
+      "Git",
+      "GitHub",
+      "GitLab",
+      "Composer",
+      "NPM",
+      "PNPM",
+      "Vite",
+      "Webpack",
+      "Babel",
+      "Postman",
+      "VS Code",
+      "Jira",
+      "Trello"
+    ],
+    "frameworks_and_libraries": [
+      "Laravel",
+      "Vue.js",
+      "Nuxt.js",
+      "React",
+      "Next.js",
+      "Astro",
+      "Flask",
+      "Django",
+      "Express.js",
+      "Three.js",
+      "Prisma"
+    ],
+    "concepts": [
+      "Agile Methodology",
+      "Scrum",
+      "Clean Code",
+      "SOLID Principles",
+      "Design Patterns",
+      "Version Control",
+      "Debugging",
+      "Problem Solving",
+      "Web Performance Optimization",
+      "Application Security",
+      "RGPD / GDPR",
+      "Digital Accessibility (WCAG 2.1)",
+      "SEO On-Page & Technical SEO",
+      "Editorial Content Management",
+      "Technical Documentation"
+    ]
+  },
+  "education": [
+    {
+      "school": "YouCode | UM6P",
+      "program": "Full Stack Web Development",
+      "location": "Safi, Maroc",
+      "year": "2025 — Present"
+    },
+    {
+      "school": "Cultr.Ed | UM6P",
+      "program": "Culture & Education Program",
+      "location": "Maroc",
+      "year": "2024 — 2025"
+    },
+    {
+      "school": "MediaUp | UM6P",
+      "program": "Graphic Design",
+      "location": "Maroc",
+      "year": "2022 — 2025"
+    },
+    {
+      "school": "Art'Com Sup | MediaUp — UM6P",
+      "program": "Graphic Design",
+      "location": "Maroc",
+      "year": "2022 — 2023"
+    },
+    {
+      "school": "OFPPT",
+      "program": "Technicien Spécialisé — Méthodes de Fabrication Mécanique (DUT)",
+      "location": "Maroc",
+      "year": "2020 — 2022"
+    },
+    {
+      "school": "Baccalauréat",
+      "program": "Sciences et Technologies Mécaniques",
+      "location": "Maroc",
+      "year": "2019"
+    }
+  ],
+  "experience": [
+    {
+      "type": "Full Stack Developer Trainee",
+      "company": "@ YouCode (UM6P)",
+      "period": "Oct 2024 — Present",
+      "description": "Intensive project-based learning environment focused on real-world applications. Built ALFLA7, TAP-TAP, and a debrief management system. Worked with Laravel, React, and Agile methodologies. Contributed to the design, development, and optimization of web applications from concept to deployment."
+    },
+    {
+      "type": "Full Stack Web Developer — Freelance",
+      "company": "@ Self-Employed",
+      "period": "Dec 2025 — Present",
+      "description": "Analysis of client requirements and writing of technical specifications. Design and development of complete web applications. Development of REST APIs and MVC architectures. Database management, performance optimization, application security, deployment and maintenance."
+    },
+    {
+      "type": "Web & Graphic Designer — Freelance",
+      "company": "@ Self-Employed",
+      "period": "Jun 2025 — Present",
+      "description": "Design of modern and responsive web interfaces. Creation of visual identities and graphic guidelines. Front-end integration following web standards. Collaboration with clients to improve user experience. Creation of digital and print graphic materials."
+    },
+    {
+      "type": "Graphic Designer — Freelance",
+      "company": "@ Self-Employed",
+      "period": "2023 — Present",
+      "description": "Logo design and brand identity creation. Development of visuals for marketing and social media. Complete management of graphic design projects."
+    }
+  ],
+  "projects": [
+    {
+      "name": "WordPress Business Site",
+      "description": "A fully custom WordPress website built for a local business — includes custom theme development, Gutenberg blocks, SEO on-page optimization (metadata, sitemap, structured data), RGPD cookie consent integration, and WCAG 2.1 accessibility compliance.",
+      "technologies": [
+        "WordPress",
+        "PHP",
+        "Gutenberg",
+        "CSS3",
+        "SEO On-Page",
+        "RGPD",
+        "WCAG 2.1"
+      ],
+      "github": "https://github.com/mohamedredachakir/wordpress-business-site",
+      "image": "Assets/images/wordpress-site.svg",
+      "note": "Add this project — create it if not yet done. It is the most critical gap for this job offer."
+    },
+    {
+      "name": "LocalMind",
+      "description": "An AI-powered local knowledge base and community platform for smarter neighborhood interactions.",
+      "technologies": [
+        "Laravel",
+        "PHP",
+        "TailwindCSS",
+        "PostgreSQL",
+        "OpenAI API"
+      ],
+      "github": "https://github.com/mohamedredachakir/LocalMind",
+      "image": "Assets/images/localmind.jpg"
+    },
+    {
+      "name": "HOOD",
+      "description": "A streetwear e-commerce platform with full product management, cart, and order system.",
+      "technologies": [
+        "Laravel",
+        "Vue.js",
+        "TailwindCSS",
+        "MySQL"
+      ],
+      "github": "https://github.com/mohamedredachakir/HOOD",
+      "image": "Assets/images/HOOD.jpg"
+    },
+    {
+      "name": "Chromaj",
+      "description": "A platform dedicated to Moroccan creators — showcase, connect, and collaborate.",
+      "technologies": [
+        "Express.js",
+        "Prisma",
+        "React",
+        "PostgreSQL"
+      ],
+      "github": "https://github.com/mohamedredachakir/Chromaj-v2",
+      "image": "Assets/images/chromaj.jpg"
+    },
+    {
+      "name": "EasyColoc",
+      "description": "A colocation management system — find roommates, manage shared housing and expenses.",
+      "technologies": [
+        "Laravel",
+        "Blade",
+        "MySQL",
+        "TailwindCSS"
+      ],
+      "github": "https://github.com/mohamedredachakir/EasyColoc",
+      "image": "Assets/images/EasyColoc.jpg"
+    },
+    {
+      "name": "PharmaManager",
+      "description": "A pharmacy management application for tracking stock, sales, and prescriptions.",
+      "technologies": [
+        "Django",
+        "Python",
+        "SQLite",
+        "Bootstrap"
+      ],
+      "github": "https://github.com/mohamedredachakir/PharmaManager",
+      "image": "Assets/images/PharmaManager.jpg"
+    },
+    {
+      "name": "Debrief System",
+      "description": "A streamlined system for managing and tracking internship or project debriefs.",
+      "technologies": [
+        "Laravel",
+        "Blade",
+        "MySQL",
+        "TailwindCSS"
+      ],
+      "github": "https://github.com/mohamedredachakir/debrief-system",
+      "image": "Assets/images/debrief.jpg"
+    },
+    {
+      "name": "ALFLA7",
+      "description": "A memory game where users find identical pairs of farming-themed items.",
+      "technologies": [
+        "HTML5",
+        "CSS3",
+        "JavaScript"
+      ],
+      "github": "https://github.com/mohamedredachakir/ALFLA7",
+      "image": "Assets/images/alfla7.png"
+    },
+    {
+      "name": "TAP-TAP",
+      "description": "A fast-paced typing speed game to test and improve your keyboard skills.",
+      "technologies": [
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "github": "https://github.com/mohamedredachakir/TAP-TAP",
+      "image": "Assets/images/taptap.png"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Arabic",
+      "level": "Native"
+    },
+    {
+      "language": "French",
+      "level": "Intermediate (A2)"
+    },
+    {
+      "language": "English",
+      "level": "Basic"
+    }
+  ],
+  "githubStats": {
+    "username": "mohamedredachakir",
+    "totalRepos": "50+"
+  },
+  "leetcode": {
+    "username": "mohamedredachakir"
+  },
+  "resume": {
+    "file": "Assets/Resume/Mohamed_Reda_Chakir_CV.pdf"
+  }
+}

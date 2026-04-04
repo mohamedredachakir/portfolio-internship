@@ -222,8 +222,8 @@
     <div class="border-b-4 border-black bg-neo-blue py-3 relative z-20">
         <div class="marquee-container font-mono font-bold text-2xl text-white">
             <div class="marquee-content" id="marquee-text">
-                /// OPEN FOR WORK /// FULL STACK DEVELOPMENT /// UI/UX DESIGN /// WEB3 READY /// ACCESSIBLE /// FAST ///
-                SECURE /// OPEN FOR WORK /// FULL STACK DEVELOPMENT ///
+                /// OPEN FOR WORK /// FULL STACK DEVELOPMENT /// WORDPRESS /// SEO ON-PAGE /// RGPD /// WCAG 2.1 ///
+                UI/UX DESIGN /// GRAPHIC DESIGN /// OPEN FOR WORK ///
             </div>
         </div>
     </div>
@@ -244,8 +244,8 @@
                     Loading...
                 </p>
                 <p class="font-mono text-lg mb-8 text-gray-600 border-l-4 border-neo-purple pl-4" id="about-details">
-                    > Specialized in Web Development.<br>
-                    > Passionate about clean code and modern UI.
+                    > Specialized in full-stack development, WordPress, and content-driven web projects.<br>
+                    > Focused on SEO, accessibility, RGPD compliance, clean code, and modern UI.
                 </p>
                 <div class="flex gap-4">
                     <div class="bg-neo-black text-white px-4 py-2 font-mono text-sm border-2 border-transparent"
@@ -474,8 +474,11 @@
     <script>
         async function loadPortfolio() {
             try {
-                const response = await fetch('infos.json');
+                const response = await fetch('NEWME.json');
                 const data = await response.json();
+                const skills = data.skills || {};
+                const asArray = (value) => Array.isArray(value) ? value : [];
+                const frameworks = asArray(skills.frameworks_and_libraries);
 
                 // Meta & Title
                 document.getElementById('page-title').textContent = `${data.personal.name.toUpperCase()} | ${data.personal.title}`;
@@ -489,8 +492,6 @@
 
                 // Multi-color Title Logic
                 const titleParts = data.personal.title.split(' ');
-                const firstPart = titleParts.slice(0, 2).join(' '); // "Full Stack"
-                const secondPart = titleParts.slice(2).join(' ');   // "Web Developer"
 
                 document.getElementById('hero-title').innerHTML = `
                     <span class="text-neo-blue hero-title-part cursor-hover">${titleParts[0] || ''}</span> 
@@ -498,7 +499,7 @@
                     <span class="text-white text-stroke-black hero-title-part cursor-hover" style="-webkit-text-stroke: 3px black;">${titleParts.slice(2).join(' ') || 'DEVELOPER'}</span>
                 `;
 
-                document.getElementById('hero-bio').innerHTML = `${data.personal.bio.split('. ')[0]}. <br><b>${data.skills.frameworks_and_libraries.slice(0, 4).join(' • ')}</b>`;
+                document.getElementById('hero-bio').innerHTML = `${data.personal.bio.split('. ')[0]}. <br><b>${frameworks.slice(0, 4).join(' • ')}</b>`;
                 document.getElementById('hero-bio').classList.replace('bg-neo-yellow', 'bg-neo-green');
                 document.getElementById('download-cv').href = data.resume.file;
 
@@ -511,15 +512,21 @@
                 // Skills Grid
                 const skillsGrid = document.getElementById('skills-grid');
                 const allSkills = [
-                    ...data.skills.frontend.slice(0, 4).map(s => ({ name: s, type: 'frontend' })),
-                    ...data.skills.backend.slice(0, 4).map(s => ({ name: s, type: 'backend' })),
-                    ...data.skills.frameworks_and_libraries.slice(0, 4).map(s => ({ name: s, type: 'framework' })),
-                    ...data.skills.tools.slice(0, 4).map(s => ({ name: s, type: 'tool' }))
+                    ...asArray(skills.frontend).slice(0, 4).map(s => ({ name: s, type: 'frontend' })),
+                    ...asArray(skills.backend).slice(0, 4).map(s => ({ name: s, type: 'backend' })),
+                    ...asArray(skills.cms).slice(0, 4).map(s => ({ name: s, type: 'cms' })),
+                    ...asArray(skills.seo_and_compliance).slice(0, 4).map(s => ({ name: s, type: 'seo' })),
+                    ...asArray(skills.design).slice(0, 4).map(s => ({ name: s, type: 'design' })),
+                    ...frameworks.slice(0, 4).map(s => ({ name: s, type: 'framework' })),
+                    ...asArray(skills.tools).slice(0, 4).map(s => ({ name: s, type: 'tool' }))
                 ];
 
                 const colorMap = {
                     'frontend': 'hover:bg-neo-blue',
                     'backend': 'hover:bg-neo-green',
+                    'cms': 'hover:bg-neo-orange',
+                    'seo': 'hover:bg-neo-yellow',
+                    'design': 'hover:bg-neo-red',
                     'framework': 'hover:bg-neo-purple',
                     'tool': 'hover:bg-neo-pink'
                 };
@@ -534,7 +541,7 @@
                 // Experience
                 const expTimeline = document.getElementById('experience-timeline');
                 const colors = ['bg-neo-blue', 'bg-neo-pink', 'bg-neo-green', 'bg-neo-purple', 'bg-neo-orange'];
-                expTimeline.innerHTML = data.experience.map((exp, i) => `
+                expTimeline.innerHTML = asArray(data.experience).map((exp, i) => `
                     <div class="reveal relative pl-8 md:pl-16">
                         <div class="absolute -left-[14px] top-2 w-6 h-6 ${colors[i % colors.length]} border-4 border-black"></div>
                         <div class="bg-white border-4 border-black p-6 shadow-hard hover:shadow-hard-xl transition-all">
@@ -567,7 +574,7 @@
 
                 // Projects
                 const projectsGrid = document.getElementById('projects-grid');
-                projectsGrid.innerHTML = data.projects.map((p, i) => `
+                projectsGrid.innerHTML = asArray(data.projects).map((p, i) => `
                     <article class="reveal group bg-white border-4 border-black p-4 shadow-hard ${i % 2 !== 0 ? 'mt-0 md:mt-20' : ''}">
                         <div class="bg-black border-2 border-black aspect-video relative overflow-hidden mb-6">
                             <img src="${p.image}" alt="${p.name}" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity">
@@ -600,9 +607,12 @@
                 const socialIcons = {
                     'github': 'ri-github-fill',
                     'linkedin': 'ri-linkedin-fill',
+                    'leetcode': 'ri-code-box-fill',
                     'twitter': 'ri-twitter-fill',
                     'instagram': 'ri-instagram-fill',
-                    'portfolio': 'ri-global-line'
+                    'discord': 'ri-discord-fill',
+                    'portfolio': 'ri-global-line',
+                    'website': 'ri-global-line'
                 };
                 footerSocials.innerHTML = Object.entries(data.social)
                     .filter(([name, url]) => url !== "")
